@@ -1,7 +1,7 @@
 # gci15_email
 Minimal newsletter project made with django
 
-Users can register emails in localhost/newsletter/email/ 
+Users can register emails at localhost/newsletter/email/ 
 ---------------------------------------------------------
 If email is already in database nothing happens,
 If not user is added to it and welcome email is send to user  

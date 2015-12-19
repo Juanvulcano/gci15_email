@@ -1,0 +1,3 @@
+DecoratorTools==1.8
+Django==1.8.5
+

@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Newsletters subscribed users</title>
+    </head>
+
+    <body>
+        <h1>Here you can see all the users subscribed</h1>
+
+        {% if accounts %}
+            <ul>
+                {% for account in accounts %}
+                <li>{{ account }}</li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <strong>There are no channels present.</strong>
+        {% endif %}
+
+    </body>
+</html>
+

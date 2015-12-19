@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <title> Welcome to GCI Newsletters for FOSSASIA</title>
+        </head>
+
+        <body>
+                <h1> Send email to all registered users :) </h1>
+              <form id="newsletter" method="post" action="/newsletter/massmail/">
+                {% csrf_token %}
+                Subject: <input name="subject" type="text" size="50" />
+                <br />
+                Message: <input name="message" type="text" size="50" />
+                <input type="submit" value="submit" />
+                <br />
+              </form>
+        </body>
+</html>
+
